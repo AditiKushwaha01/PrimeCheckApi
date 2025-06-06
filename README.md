@@ -16,10 +16,9 @@ Open terminal and navigate to the project root.
 
 Run:
 
-bash
-Copy
-Edit
+```
 mvn spring-boot:run
+```
 By default, it will run at: http://localhost:8080
 
 🧪 How to Test the Endpoint
@@ -27,17 +26,17 @@ By default, it will run at: http://localhost:8080
 
 Endpoint:
 
-http
-`GET http://localhost:8080/api/isPrime?number=13`
+
+```GET http://localhost:8080/api/isPrime?number=13```
+
+
 Response:
 
-csharp
-
-13 is a prime number.
+```13 is a prime number.```
 Try:
 
 
-``http://localhost:8080/api/isPrime?number=10``
+```http://localhost:8080/api/isPrime?number=10```
 You’ll get:
 
 ```
